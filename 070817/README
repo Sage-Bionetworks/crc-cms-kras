@@ -1,0 +1,22 @@
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output kfs-vs-chemokines.pdf kfs-*-vs-chemokines.pdf
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output tcga-vs-chemokines.pdf tcga-*-vs-chemokines.pdf
+
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  kfs-immune-kras-cms.pdf *kfs*immune*fdr*pdf
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  tcga-immune-kras-cms.pdf *tcga*immune*fdr*pdf
+
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  kfs-hallmark-kras-cms.pdf HALLMARK*kfs*kras-cms-fdr*pdf
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  tcga-hallmark-kras-cms.pdf HALLMARK*tcga*kras-cms-fdr*pdf
+
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  tcga-mcp-kras-cms.pdf MCP*tcga*fdr-kras-cms.pdf
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output  kfs-mcp-kras-cms.pdf MCP*kfs*fdr-kras-cms.pdf
+
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output kfs-cyto-and-infg.pdf output/HALLMARK_INTERFERON_GAMMA_RESPONSE-kfs-kras-cms-kras-cms.pdf output/HALLMARK_INTERFERON_GAMMA_RESPONSE-kfs-full-model-forest.pdf output/Cytotoxic\ cells-kfs-kras-cms-kras-cms.pdf output/Cytotoxic\ cells-kfs-full-model-forest.pdf 
+
+for x in "Cytotoxic cells" HALLMARK_WNT_BETA_CATENIN_SIGNALING HALLMARK_MYC_TARGETS_V1 HALLMARK_MYC_TARGETS_V2 CIRC HALLMARK_INTERFERON_GAMMA_RESPONSE;
+do
+echo $x
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" --output "../for-gary/${x}.pdf" "${x}-tcga-kras-MT-vs-WT.pdf" "${x}-kfs-kras-MT-vs-WT.pdf" "${x}-tcga-kras-cms.pdf" "${x}-kfs-kras-cms.pdf" "${x}-tcga-cms.pdf" "${x}-kfs-cms.pdf" "${x}-tcga-full-model-forest.pdf" "${x}-kfs-full-model-forest.pdf"
+done
+
+
+

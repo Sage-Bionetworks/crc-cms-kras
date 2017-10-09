@@ -1,0 +1,33 @@
+Loading required package: methods
+
+TERMS OF USE NOTICE:
+    When using Synapse, remember that the terms and conditions of use require that you:
+    1) Attribute data contributors when discussing these data or results from these data.
+    2) Not discriminate, identify, or recontact individuals or groups represented by the data.
+    3) Use and contribute only data de-identified to HIPAA standards.
+    4) Redistribute data only under these same terms of use.
+
+
+Attaching package: 'data.table'
+
+The following object is masked from 'package:synapseClient':
+
+    set
+
+Warning message:
+package 'data.table' was built under R version 3.3.2 
+Please upgrade to the latest version of the Synapse Client, 1.14-3, by running the following commands:
+	source('http://depot.sagebase.org/CRAN.R')
+	pkgInstall("synapseClient")
+
+Here are this version's release notes:
+https://sagebionetworks.jira.com/issues/?jql=project%20%3D%20SYNR%20AND%20fixVersion%20in%20(R-1.14-0%2C%20R-1.14-1%2C%20R-1.14-2%2C%20R-1.14-3)%20ORDER%20BY%20key%20DESC
+
+
+
+Welcome brian.white!
+Read 0.0% of 54675 rowsRead 36.6% of 54675 rowsRead 73.2% of 54675 rowsRead 54675 rows and 567 (of 567) columns from 0.487 GB file in 00:00:07
+26 of 28 CIRC genes in French data set:
+HLA-DQA1,CTLA4,PDCD1LG2,ICAM1,CD274,STAT1,IRF1,IFNG,GNLY,TBX21,CCL5,LAG3,CD247,ICOS,IL18RAP,CXCL9,CXCL10,HLA-DPB1,HLA-DPA1,HLA-DMB,HLA-DRA,HLA-DMA,CD80,HLA-DOA,CD4,HAVCR2
+2 of 28 CIRC genes not in French data set:
+HLA-DQA2,HLA-DRB5

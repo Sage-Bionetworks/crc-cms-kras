@@ -1,0 +1,31 @@
+tcga-all: Analyzing CIRC vs KRAS using Wilcoxon rank sum test with continuity correction: W = 16382, n_WT = 219, n_MT = 125, p = 0.00239184964757301
+kfs-all: Analyzing CIRC vs KRAS using Wilcoxon rank sum test with continuity correction: W = 12084, n_WT = 175, n_MT = 115, p = 0.00381629339682518
+tcga-gene-sets: Analyzing Cytotoxic cells vs KRAS using Wilcoxon rank sum test with continuity correction: W = 15515, n_WT = 219, n_MT = 125, p = 0.0394550958525481
+kfs-gene-sets: Analyzing Cytotoxic cells vs KRAS using Wilcoxon rank sum test with continuity correction: W = 11662, n_WT = 175, n_MT = 115, p = 0.0220858283559412
+tcga-gene-sets: Analyzing Neutrophils vs KRAS using Wilcoxon rank sum test with continuity correction: W = 15981, n_WT = 219, n_MT = 125, p = 0.00974672529331536
+kfs-gene-sets: Analyzing Neutrophils vs KRAS using Wilcoxon rank sum test with continuity correction: W = 11974, n_WT = 175, n_MT = 115, p = 0.00622854051911139
+kfs-circ: Analyzing STAT1 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 13029, n_WT = 175, n_MT = 115, p = 2.17930782370407e-05
+tcga-circ: Analyzing STAT1 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 16069, n_WT = 219, n_MT = 125, p = 0.0072772800538876
+kfs-circ: Analyzing CXCL10 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 12348, n_WT = 175, n_MT = 115, p = 0.00107219740701228
+tcga-circ: Analyzing CXCL10 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 16218, n_WT = 219, n_MT = 125, p = 0.0043467533177559
+tcga-circ: Analyzing CIITA vs KRAS using Wilcoxon rank sum test with continuity correction: W = 15715, n_WT = 219, n_MT = 125, p = 0.0223216042395995
+kfs-circ: Analyzing CIITA vs KRAS using Wilcoxon rank sum test with continuity correction: W = 10654, n_WT = 175, n_MT = 115, p = 0.397560023143556
+kfs-circ: Analyzing CD247 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 11319, n_WT = 175, n_MT = 115, p = 0.0721926652054417
+tcga-circ: Analyzing CD247 vs KRAS using Wilcoxon rank sum test with continuity correction: W = 15908, n_WT = 219, n_MT = 125, p = 0.0123353892395922
+tcga-all: Analyzing CIRC CMS2 vs CMS1 using Wilcoxon rank sum test with continuity correction: W = 6373, n_CMS2 = 136, n_CMS1 = 51, p = 1.23959499498166e-18
+tcga-all: Analyzing CIRC CMS2 vs CMS4 using Wilcoxon rank sum test with continuity correction: W = 2243, n_CMS2 = 136, n_CMS4 = 87, p = 5.51962791445972e-15
+tcga-all CIRC vs neoantigens: tcga-all: Analyzing CIRC vs neoantigens using Fisher's Exact Test for Count Data: p = 2.77695954746732e-11 n = 342
+tcga-all: Analyzing CIRC site: rectum vs leftWilcoxon rank sum test with continuity correction: W = 3359, n_rectum = 60, n_left = 133, p = 0.0791927710817998
+tcga-all: Analyzing CIRC site: right vs leftWilcoxon rank sum test with continuity correction: W = 6860, n_right = 148, n_left = 133, p = 1.16662152475699e-05
+tcga-all: Analyzing CIRC status: MSS vs MSIWilcoxon rank sum test with continuity correction: W = 12383, n_MSS = 289, n_MSI = 53, p = 9.36844862356913e-13
+kfs-all: Analyzing CIRC CMS2 vs CMS1 using Wilcoxon rank sum test with continuity correction: W = 2070, n_CMS2 = 106, n_CMS1 = 26, p = 7.60378857272565e-05
+kfs-all: Analyzing CIRC CMS2 vs CMS4 using Wilcoxon rank sum test with continuity correction: W = 2166, n_CMS2 = 106, n_CMS4 = 78, p = 3.57087557384974e-08
+kfs-all: Analyzing CIRC site: rectum vs leftWilcoxon rank sum test with continuity correction: W = 2624, n_rectum = 188, n_left = 28, p = 0.980606268877483
+kfs-all: Analyzing CIRC site: right vs leftWilcoxon rank sum test with continuity correction: W = 886, n_right = 74, n_left = 28, p = 0.262273892076771
+kfs-all-msi-inferred: Analyzing CIRC status: MSS vs MSIWilcoxon rank sum test with continuity correction: W = 11063, n_MSS = 212, n_MSI = 78, p = 1.019523849464e-05
+tcga-all: Analyzing neoantigens CMS2 vs CMS4 using Wilcoxon rank sum test with continuity correction: W = 5232.5, n_CMS2 = 136, n_CMS4 = 87, p = 0.217060840755576
+tcga-all: Analyzing neoantigens CMS2 vs CMS1 using Wilcoxon rank sum test with continuity correction: W = 6531.5, n_CMS2 = 136, n_CMS1 = 51, p = 4.11558761110611e-21
+tcga-msi: Analyzing TYMS vs Imputed Status using Wilcoxon rank sum test with continuity correction: W = 54712 p = 2.44358357254431e-35 n_MSS = 390, n_MSI = 169
+Beeswarm: TYMS vs Inferred.Status W = 11946 p = 0.00102436427595825 n_MSI = 88, n_MSS = 219
+tcga-mss-msi-annotated-no-cms1: Analyzing CIRC CMS2 vs CMS4 using Wilcoxon rank sum test with continuity correction: W = 2117, n_CMS2 = 134, n_CMS4 = 81, p = 7.02496068606718e-14
+kfs-mss-msi-inferred-no-cms1: Analyzing CIRC CMS2 vs CMS4 using Wilcoxon rank sum test with continuity correction: W = 1576, n_CMS2 = 105, n_CMS4 = 46, p = 0.000698953453612531

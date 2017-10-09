@@ -1,0 +1,3 @@
+Clinical Cancer Research manuscript results can be re-created by cd'ing to
+the 100817 directory and running:
+Rscript ./run.R
